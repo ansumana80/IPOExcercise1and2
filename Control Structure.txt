@@ -1,0 +1,75 @@
+1. Process Customer Record
+
+Input	
+CustomerName	
+PurchaseAmount	
+SalesTax
+		
+Processing
+Read Customer information
+Enter Purchase Amount
+Enter SalesTax		
+Calculate Total Amount Due		
+
+Output
+Print Customer Name
+Print Purhcase Amount
+Print Sales Tax
+Print Total Amount Due
+
+Steps:
+		
+Initialize CustomerName, PurchaseAmount, TaxCode, SalesTax, TotalAmountDue, 	
+Prompt for Customer Name	
+Prompt for Purchase Amount	
+Prompt for Sales Tax
+If Taxcode = 0
+	then set SalesTax = 0.00
+else if TaxCode=1
+		then set SalesTax=0.03
+else if TaxCode=2
+		then set SalesTax=0.05
+else if TaxCode=3
+		then set SalesTax=0.07
+end if		
+
+		
+\\Calculate Total Amount Due	
+TotalAmountDue=PurchaseAmount * SalesTax)	
+		
+Print CustomerName, PurchaseAmount, SalesTax, TotalAmountDue 			
+		
+		
+2. Calculate employee's pay		 
+
+input		
+\\ Read employee payroll information
+input empoyee's number, pay rate, and number of hours work in a week
+
+Processing
+Enter employee
+Enter employee's hours worked
+Enter employee's pay rate
+Calculate Employee's weekly pay
+validate hours worked during the week
+
+Output
+Print employee's number
+print employee's pay rate
+print empoyee's hours worked
+print employee's weekly pay
+
+steps:
+
+initialize EmployeeNumber, PayRate, HoursWorks, ExtraHoursWorks, EmployeeWeeklyPay
+
+// in range
+if (hours > 35 and hours < 60)
+  { int extraHoursWorks = HoursWorks - 35;
+    EmployeeWeeklyPay = (35 * Payrate) + [(1.5 * payrate)* ExtraHoursWorks)]; }
+Else if (hours <=35 )
+	EmployeeWeeklyPay= HoursWorks * PayRate
+Else if (hours > 60  or payrate > 25)
+		print "Input is out of range, please try again"
+	
+	
